@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="The portfolio of Sibongakonke Buthelezi, a software engineer building thoughtful digital experiences in Johannesburg." />
+    <meta name="description" content="The portfolio of Sibongakonke Buthelezi, a full-stack software engineer building web apps, backend services and database-driven systems in Johannesburg." />
     <meta name="theme-color" content="#f6f5f1" />
     <title>Sibongakonke Buthelezi — Software Engineer</title>
     <link rel="stylesheet" href="styles.css" />
@@ -14,78 +14,329 @@
     <a class="skip-link" href="#main">Skip to content</a>
 
     <header class="site-header">
-      <a class="wordmark" href="index.html" aria-label="Sibongakonke Buthelezi, home">SB<span>.</span></a>
+      <a class="wordmark" href="#top" aria-label="Sibongakonke Buthelezi, home">SB<span>.</span></a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
         <span></span><span></span>
       </button>
       <nav class="site-nav" id="site-nav" aria-label="Main navigation">
-        <a href="index.html" aria-current="page">Home</a>
-        <a href="about.html">About</a>
-        <a href="skills.html">Skills</a>
-        <a href="work.html">Selected Work</a>
-        <a href="approach.html">Approach</a>
-        <a href="experience.html">Experience</a>
-        <a href="education.html">Education</a>
-        <a href="events.html">Events & Highlights</a>
-        <a href="contact.html">Contact</a>
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#community">Community</a>
+        <a class="button button-dark nav-contact-button" href="#contact">Get in touch</a>
       </nav>
     </header>
 
     <main id="main">
-      <section class="hero section-wrap" id="home">
+      <section class="hero section-wrap" id="top">
         <div class="hero-copy">
-          <p class="eyebrow"><span class="status-dot"></span> Software engineer <span class="eyebrow-divider">/</span> Open to opportunities</p>
+          <p class="eyebrow"><span class="status-dot"></span> Open to junior &amp; graduate software roles <span class="eyebrow-divider">·</span> Johannesburg</p>
           <h1>Thoughtful code.<br /><span>Useful things.</span></h1>
           <p class="hero-intro">
-            I’m Sibongakonke Buthelezi, a Johannesburg-based software engineer
-            building web applications, backend services, and database-driven
-            systems. I’m strongest in Python, with hands-on experience in Flask,
-            Django, JavaScript, Docker, and CI/CD.
+            I’m Sibongakonke Buthelezi, a full-stack software engineer building
+            web apps, backend services and database-driven systems across
+            Python, Java and JavaScript. Hackathon winner, WeThinkCode_
+            student, and currently shipping a business app for a real client.
           </p>
           <div class="hero-actions">
-            <a class="button button-dark" href="work.html">Explore my work <span aria-hidden="true">↓</span></a>
-            <a class="text-link" href="mailto:sibongakonkebuthelezi91@gmail.com">Let’s connect <span aria-hidden="true">↗</span></a>
+            <a class="button button-dark" href="#work">See my work <span aria-hidden="true">↓</span></a>
+            <a class="button button-outline" href="mailto:sibongakonkebuthelezi91@gmail.com">Email me</a>
           </div>
-          <div class="hero-note">
-            <span class="note-line"></span>
-            <p>Curious by nature. Deliberate by design.</p>
-          </div>
+          <p class="hero-links">
+            <a class="social-link" href="https://github.com/sibongakonkebuthelezi91" target="_blank" rel="noopener noreferrer"><i class="social-icon fa-brands fa-github" aria-hidden="true"></i>GitHub</a>
+            <a class="social-link" href="https://www.linkedin.com/in/sibongakonke-buthelezi-274b76344" target="_blank" rel="noopener noreferrer"><i class="social-icon fa-brands fa-linkedin" aria-hidden="true"></i>LinkedIn</a>
+          </p>
         </div>
-        <div class="hero-art" aria-label="Portrait of Sibongakonke Buthelezi" role="img">
-          <div class="art-orbit orbit-one"></div>
-          <div class="art-orbit orbit-two"></div>
-          <div class="art-sun"></div>
+        <div class="hero-art">
           <div class="hero-photo-card">
             <img src="assets/portrait.jpg" alt="Sibongakonke Buthelezi" fetchpriority="high" />
-            <div class="hero-photo-badge">Building useful things</div>
           </div>
-          <div class="art-caption"><span>01 — 03</span><span>Ideas into impact</span></div>
-          <span class="art-spark spark-one" aria-hidden="true">✳</span>
-          <span class="art-spark spark-two" aria-hidden="true">✳</span>
+          <div class="hero-photo-badge">JUL 2026<br />Winner · YTE Hackathon</div>
         </div>
-        <a class="scroll-cue" href="#directory-title"><span></span> Explore the portfolio</a>
       </section>
 
-      <section class="page-directory section-wrap" aria-labelledby="directory-title">
-        <div class="directory-heading">
-          <p class="eyebrow">Explore the portfolio</p>
-          <h2 id="directory-title">A closer look at<br /><span>what I do.</span></h2>
+      <section class="highlights section-wrap" aria-label="Highlights">
+        <article class="highlight-cell">
+          <p class="highlight-label">1st</p>
+          <h3>YTE Hackathon winner</h3>
+          <p class="highlight-copy">Presented GridWise on stage · Jul ’26</p>
+        </article>
+        <article class="highlight-cell">
+          <p class="highlight-label">2nd</p>
+          <h3>MoMo Mini App Hackathon</h3>
+          <p class="highlight-copy">Credit-building app for informal traders · Sep ’26</p>
+        </article>
+        <article class="highlight-cell">
+          <p class="highlight-label">Client</p>
+          <h3>Freelance full-stack · CareerSine</h3>
+          <p class="highlight-copy">Django business app, requirements to deploy · Jul ’26–now</p>
+        </article>
+        <article class="highlight-cell">
+          <p class="highlight-label">Verified</p>
+          <h3>Scientific Computing with Python</h3>
+          <p class="highlight-copy"><a href="https://freecodecamp.org/certification/sibongakonke/python-v9" target="_blank" rel="noopener noreferrer">freeCodeCamp credential ↗</a></p>
+        </article>
+      </section>
+
+      <section class="work-section" id="work">
+        <div class="section-wrap section-pad">
+          <div class="work-heading">
+            <div>
+              <p class="eyebrow">01 · Selected work</p>
+              <h2>Things I’ve<br /><span>shipped.</span></h2>
+            </div>
+            <div class="filter-bar" role="group" aria-label="Filter projects by category">
+              <button type="button" class="filter-btn is-active" data-filter="all" aria-pressed="true">All</button>
+              <button type="button" class="filter-btn" data-filter="hackathon" aria-pressed="false">Hackathons</button>
+              <button type="button" class="filter-btn" data-filter="client" aria-pressed="false">Client work</button>
+              <button type="button" class="filter-btn" data-filter="build" aria-pressed="false">Builds</button>
+            </div>
+          </div>
+
+          <div class="work-grid">
+            <article class="work-card" data-cat="hackathon">
+              <div class="work-card-panel panel-purple">
+                <span class="panel-label">Hackathon · 1st place</span>
+                <span class="panel-word">GridWise</span>
+              </div>
+              <div class="work-card-body">
+                <p class="work-card-tag">YTE Hackathon</p>
+                <h3>GridWise</h3>
+                <p class="work-card-desc">[what GridWise solves], built as [my role].</p>
+                <div class="chip-row"><span class="chip">[stack]</span></div>
+                <a class="work-card-link" href="https://www.linkedin.com/posts/sibongakonke-buthelezi-274b76344_wethinkcode-hackathonwinner-softwaredevelopment-activity-7481424278475849728-xCLs" target="_blank" rel="noopener noreferrer">View the LinkedIn post ↗</a>
+              </div>
+            </article>
+
+            <article class="work-card" data-cat="hackathon">
+              <div class="work-card-panel panel-lime">
+                <span class="panel-label">Hackathon · 2nd place</span>
+                <span class="panel-word">Credit</span>
+              </div>
+              <div class="work-card-body">
+                <p class="work-card-tag">MoMo Mini App Hackathon</p>
+                <h3>Credit-building mini app</h3>
+                <p class="work-card-desc">Helps people build a credit score through small loans from informal traders. Built as [my role].</p>
+                <div class="chip-row"><span class="chip">[stack]</span></div>
+                <a class="work-card-link" href="https://www.linkedin.com/feed/update/urn:li:activity:7501947042567585792/" target="_blank" rel="noopener noreferrer">View the LinkedIn post ↗</a>
+              </div>
+            </article>
+
+            <article class="work-card" data-cat="client">
+              <div class="work-card-panel panel-ink">
+                <span class="panel-label">Client</span>
+                <span class="panel-word">CareerSine</span>
+              </div>
+              <div class="work-card-body">
+                <p class="work-card-tag">Freelance · private repo</p>
+                <h3>CareerSine business management app</h3>
+                <p class="work-card-desc">A private business management web application built from requirements through to deployment, with regular client demos and feedback.</p>
+                <div class="chip-row"><span class="chip">Django</span><span class="chip">JavaScript</span><span class="chip">SQLite</span></div>
+                <a class="work-card-link" href="#experience">See the engagement ↗</a>
+              </div>
+            </article>
+
+            <article class="work-card" data-cat="build">
+              <div class="work-card-panel panel-tan">
+                <span class="panel-label">Java · in progress</span>
+                <span class="panel-word">Java</span>
+              </div>
+              <div class="work-card-body">
+                <p class="work-card-tag">[Project name]</p>
+                <h3>[Project title]</h3>
+                <p class="work-card-desc">[Project description]</p>
+                <div class="chip-row"><span class="chip">Java</span><span class="chip">Javalin</span><span class="chip">Hibernate</span></div>
+                <a class="work-card-link" href="#">[project link]</a>
+              </div>
+            </article>
+
+            <article class="work-card" data-cat="build">
+              <div class="work-card-panel panel-tan">
+                <span class="panel-label">Java · in progress</span>
+                <span class="panel-word">Java</span>
+              </div>
+              <div class="work-card-body">
+                <p class="work-card-tag">[Project name]</p>
+                <h3>[Project title]</h3>
+                <p class="work-card-desc">[Project description]</p>
+                <div class="chip-row"><span class="chip">Java</span><span class="chip">Javalin</span><span class="chip">Hibernate</span></div>
+                <a class="work-card-link" href="#">[project link]</a>
+              </div>
+            </article>
+
+            <article class="work-card" data-cat="build">
+              <div class="work-card-panel panel-purple">
+                <span class="panel-label">Build · Flask</span>
+                <span class="panel-word">Campus</span>
+              </div>
+              <div class="work-card-body">
+                <p class="work-card-tag">Flask · Python · SQLite</p>
+                <h3>Campus &amp; Student Management Portal</h3>
+                <p class="work-card-desc">Supports registration, check-ins, and user management, with authentication, session management, and role-based access for admins and students.</p>
+                <div class="chip-row"><span class="chip">Flask</span><span class="chip">Python</span><span class="chip">SQLite</span></div>
+                <a class="work-card-link" href="https://github.com/bhekani17/wethinkcode-branch-register" target="_blank" rel="noopener noreferrer"><i class="social-icon fa-brands fa-github" aria-hidden="true"></i>View on GitHub ↗</a>
+              </div>
+            </article>
+
+            <article class="work-card" data-cat="build">
+              <div class="work-card-panel panel-lime">
+                <span class="panel-label">Build · Flask</span>
+                <span class="panel-word">Mail</span>
+              </div>
+              <div class="work-card-body">
+                <p class="work-card-tag">Flask · Python 3.12 · Docker</p>
+                <h3>Simple Mail Protocol</h3>
+                <p class="work-card-desc">Validates email addresses from a web form and sends HTML email through the Brevo API, with modular responsibilities and credentials stored in environment configuration.</p>
+                <div class="chip-row"><span class="chip">Flask</span><span class="chip">Python 3.12</span><span class="chip">Docker</span></div>
+                <a class="work-card-link" href="https://github.com/sibongakonkebuthelezi91/simple_mail_protocol" target="_blank" rel="noopener noreferrer"><i class="social-icon fa-brands fa-github" aria-hidden="true"></i>View on GitHub ↗</a>
+              </div>
+            </article>
+          </div>
+
+          <p class="work-footnote"><span>↳</span> More experiments and practice repos on <a href="https://github.com/sibongakonkebuthelezi91" target="_blank" rel="noopener noreferrer">GitHub ↗</a>.</p>
         </div>
-        <div class="page-grid">
-          <a class="page-card" href="about.html"><span class="eyebrow">01</span><h2>About</h2><span class="page-card-arrow" aria-hidden="true">↗</span></a>
-          <a class="page-card" href="skills.html"><span class="eyebrow">02</span><h2>Skills</h2><span class="page-card-arrow" aria-hidden="true">↗</span></a>
-          <a class="page-card" href="work.html"><span class="eyebrow">03</span><h2>Selected Work</h2><span class="page-card-arrow" aria-hidden="true">↗</span></a>
-          <a class="page-card" href="approach.html"><span class="eyebrow">04</span><h2>Approach</h2><span class="page-card-arrow" aria-hidden="true">↗</span></a>
-          <a class="page-card" href="experience.html"><span class="eyebrow">05</span><h2>Experience</h2><span class="page-card-arrow" aria-hidden="true">↗</span></a>
-          <a class="page-card" href="education.html"><span class="eyebrow">06</span><h2>Education</h2><span class="page-card-arrow" aria-hidden="true">↗</span></a>
-          <a class="page-card" href="events.html"><span class="eyebrow">07</span><h2>Events & Highlights</h2><span class="page-card-arrow" aria-hidden="true">↗</span></a>
-          <a class="page-card" href="contact.html"><span class="eyebrow">08</span><h2>Contact</h2><span class="page-card-arrow" aria-hidden="true">↗</span></a>
+      </section>
+
+      <section class="approach section-wrap section-pad" id="experience">
+        <div class="approach-heading">
+          <p class="eyebrow">02 · Experience &amp; education</p>
+          <h2>Learning by<br /><span>building.</span></h2>
+          <p>Working directly with a client to turn business requirements into a dependable application, alongside structured study in software development.</p>
+        </div>
+        <div class="principles">
+          <article class="principle">
+            <span class="principle-number">2026</span>
+            <div>
+              <h3>Freelance Full-Stack Developer · CareerSine</h3>
+              <p>Jul 2026 — Present. Developing a private business management web application with Django, JavaScript, and SQLite. Working with the client from requirements analysis through implementation, database design, testing, and ongoing improvements, using regular demos and feedback to keep technical decisions clear.</p>
+            </div>
+            <span class="principle-mark" aria-hidden="true">↗</span>
+          </article>
+          <article class="principle">
+            <span class="principle-number">2025–</span>
+            <div><h3>Software Development · WeThinkCode_</h3><p>Studying at the Soweto campus, covering peer-to-peer software development, data structures, algorithms, Python and Java OOP, testing, and team-driven project sprints.</p></div>
+            <span class="principle-mark" aria-hidden="true">↗</span>
+          </article>
+          <article class="principle">
+            <span class="principle-number">Verified</span>
+            <div><h3>Scientific Computing with Python · freeCodeCamp</h3><p>Python fundamentals, algorithm design, data structures, and object-oriented programming demonstrated through five hands-on projects. <a href="https://freecodecamp.org/certification/sibongakonke/python-v9" target="_blank" rel="noopener noreferrer">Verify credential ↗</a></p></div>
+            <span class="principle-mark" aria-hidden="true">↗</span>
+          </article>
+          <article class="principle">
+            <span class="principle-number">2023</span>
+            <div><h3>Certificate in Business Management (N6)</h3><p>Business process understanding, communication, problem-solving, and stakeholder management.</p></div>
+            <span class="principle-mark" aria-hidden="true">↗</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="skills section-pad" id="skills">
+        <div class="section-wrap">
+          <p class="eyebrow">03 · Toolkit</p>
+          <h2>The right tool <span>for the job.</span></h2>
+          <div class="skill-groups">
+            <div class="skill-group">
+              <h3>Languages</h3>
+              <p>JavaScript · Java · Python · C# · HTML · CSS</p>
+            </div>
+            <div class="skill-group">
+              <h3>Frameworks</h3>
+              <p>Javalin · Django · Flask · Django REST Framework</p>
+            </div>
+            <div class="skill-group">
+              <h3>Databases</h3>
+              <p>SQLite · PostgreSQL · Django ORM · Hibernate</p>
+            </div>
+            <div class="skill-group">
+              <h3>Tools &amp; practices</h3>
+              <p>Docker · Git/GitHub · CI/CD · REST APIs · Agile collaboration</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="approach section-wrap section-pad" id="community">
+        <div class="approach-heading">
+          <p class="eyebrow">04 · Community</p>
+          <h2>Showing up<br /><span>and sharing.</span></h2>
+          <p>Hackathons, cloud events, and community sessions. Each link opens the original post.</p>
+          <a class="text-link about-link" href="https://www.linkedin.com/in/sibongakonke-buthelezi-274b76344" target="_blank" rel="noopener noreferrer">More posts on LinkedIn <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="principles">
+          <article class="principle">
+            <span class="principle-number">Apr ’26</span>
+            <div><div class="event-head"><img class="event-badge" src="assets/logos/gdg.jpg" alt="Google Developer Groups" loading="lazy" width="32" height="32" /><h3><a href="https://www.linkedin.com/posts/sibongakonke-buthelezi-274b76344_activity-7448800481642151936-IpVk" target="_blank" rel="noopener noreferrer">Build With AI Soweto</a></h3></div><p>Hands-on session with GDG Soweto exploring developer tooling, practical AI applications, and connecting with local developers.</p></div>
+            <a class="principle-mark" href="https://www.linkedin.com/posts/sibongakonke-buthelezi-274b76344_activity-7448800481642151936-IpVk" target="_blank" rel="noopener noreferrer" aria-label="Read the Build With AI Soweto post">↗</a>
+          </article>
+          <article class="principle">
+            <span class="principle-number">May ’26</span>
+            <div><div class="event-head"><img class="event-badge" src="assets/logos/aws.jpg" alt="AWS" loading="lazy" width="32" height="32" /><h3><a href="https://www.linkedin.com/posts/sibongakonke-buthelezi-274b76344_activity-7466531114040320002-G95M" target="_blank" rel="noopener noreferrer">AWS Cloud Event · Sandton</a></h3></div><p>Explored enterprise cloud architecture, AWS services, and developer best practices.</p></div>
+            <a class="principle-mark" href="https://www.linkedin.com/posts/sibongakonke-buthelezi-274b76344_activity-7466531114040320002-G95M" target="_blank" rel="noopener noreferrer" aria-label="Read the AWS Cloud Event Sandton post">↗</a>
+          </article>
+          <article class="principle">
+            <span class="principle-number">Jul ’26</span>
+            <div><div class="event-head"><img class="event-badge" src="assets/logos/yte.jpg" alt="YTE" loading="lazy" width="32" height="32" /><h3><a href="https://www.linkedin.com/posts/sibongakonke-buthelezi-274b76344_wethinkcode-hackathonwinner-softwaredevelopment-activity-7481424278475849728-xCLs" target="_blank" rel="noopener noreferrer">YTE Hackathon · Winner</a></h3></div><p>Won the YTE Hackathon (G13), presenting GridWise on stage.</p></div>
+            <a class="principle-mark" href="https://www.linkedin.com/posts/sibongakonke-buthelezi-274b76344_wethinkcode-hackathonwinner-softwaredevelopment-activity-7481424278475849728-xCLs" target="_blank" rel="noopener noreferrer" aria-label="Read the YTE Hackathon post">↗</a>
+          </article>
+          <article class="principle">
+            <span class="principle-number">Aug ’26</span>
+            <div><div class="event-head"><img class="event-badge" src="assets/logos/aws.jpg" alt="AWS" loading="lazy" width="32" height="32" /><h3><a href="https://www.linkedin.com/posts/sibongakonke-buthelezi-274b76344_aws-softwareengineer-ai-activity-7495915858137980928-Q88R" target="_blank" rel="noopener noreferrer">AWS Summit</a></h3></div><p>Talks, the expo floor, and time with fellow attendees.</p></div>
+            <a class="principle-mark" href="https://www.linkedin.com/posts/sibongakonke-buthelezi-274b76344_aws-softwareengineer-ai-activity-7495915858137980928-Q88R" target="_blank" rel="noopener noreferrer" aria-label="Read the AWS Summit post">↗</a>
+          </article>
+          <article class="principle">
+            <span class="principle-number">Sep ’26</span>
+            <div><div class="event-head"><img class="event-badge" src="assets/logos/mtn-momo.jpg" alt="MTN MoMo" loading="lazy" width="32" height="32" /><h3><a href="https://www.linkedin.com/feed/update/urn:li:activity:7501947042567585792/" target="_blank" rel="noopener noreferrer">2nd place · MoMo Mini App Hackathon</a></h3></div><p>Built a team app to help people build credit scores through small loans from informal traders; placed second. <a href="https://www.linkedin.com/feed/update/urn:li:activity:7501947042567585792/" target="_blank" rel="noopener noreferrer">Watch the moment on LinkedIn ↗</a></p></div>
+            <a class="principle-mark" href="https://www.linkedin.com/feed/update/urn:li:activity:7501947042567585792/" target="_blank" rel="noopener noreferrer" aria-label="Watch the MoMo Mini App Hackathon post">↗</a>
+          </article>
+          <article class="principle">
+            <span class="principle-number">Sep ’26</span>
+            <div><div class="event-head"><img class="event-badge" src="assets/logos/geekulcha.jpg" alt="Geekulcha" loading="lazy" width="32" height="32" /><h3><a href="https://www.instagram.com/p/Dd5tIP1itZc/?img_index=1" target="_blank" rel="noopener noreferrer">Geekulcha Hackathon</a></h3></div><p>Participated in the Geekulcha Build for Use hackathon.</p></div>
+            <a class="principle-mark" href="https://www.instagram.com/p/Dd5tIP1itZc/?img_index=1" target="_blank" rel="noopener noreferrer" aria-label="See the Geekulcha Hackathon post">↗</a>
+          </article>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-secondary">
+            <a class="project-visual visual-portfolio" href="https://www.instagram.com/p/Dd5tIP1itZc/?img_index=1" target="_blank" rel="noopener noreferrer" aria-label="See the Geekulcha Hackathon post on Instagram">
+              <img src="assets/geekulcha-hackathon.jpg" alt="Sibongakonke speaking at the Geekulcha Hackathon" loading="lazy" width="640" height="640" style="display:block;width:100%;height:100%;object-fit:cover" />
+              <span class="visual-label">Geekulcha Hackathon · View post ↗</span>
+            </a>
+            <div class="project-info">
+              <div><p class="project-type">Hackathon · Build for Use</p><h3><a href="https://www.instagram.com/p/Dd5tIP1itZc/?img_index=1" target="_blank" rel="noopener noreferrer">Speaking at Geekulcha</a></h3></div>
+              <a class="project-arrow" href="https://www.instagram.com/p/Dd5tIP1itZc/?img_index=1" target="_blank" rel="noopener noreferrer" aria-label="Open the Geekulcha Hackathon post on Instagram">↗</a>
+              <p class="project-description">Photo from the Geekulcha Hackathon. Open the original Instagram post for more.</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual event-video-visual">
+              <video class="event-video" src="momo-video.mp4" controls playsinline preload="metadata" aria-label="Video from the MoMo Mini App Hackathon"></video>
+              <span class="visual-label">MoMo Mini App Hackathon</span>
+            </div>
+            <div class="project-info">
+              <div><p class="project-type">Hackathon · 2nd place</p><h3>MoMo Mini App Hackathon</h3></div>
+              <a class="project-arrow" href="https://www.linkedin.com/feed/update/urn:li:activity:7501947042567585792/" target="_blank" rel="noopener noreferrer" aria-label="Open the MoMo Mini App Hackathon post on LinkedIn">↗</a>
+              <p class="project-description">Watch the moment from the hackathon, where our team placed second. <a href="https://www.linkedin.com/feed/update/urn:li:activity:7501947042567585792/" target="_blank" rel="noopener noreferrer">View the original LinkedIn post ↗</a></p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact section-wrap" id="contact">
+        <div class="contact-inner">
+          <p class="eyebrow">The next chapter</p>
+          <h2>Have something<br />good in <span>mind?</span></h2>
+          <p class="contact-copy">
+            I’m open to conversations about software engineering roles,
+            interesting projects, and teams doing thoughtful work.
+          </p>
+          <a class="button button-light" href="mailto:sibongakonkebuthelezi91@gmail.com">sibongakonkebuthelezi91@gmail.com <span aria-hidden="true">↗</span></a>
+          <div class="contact-note">Johannesburg, South Africa · <a href="tel:+27664484226">066 448 4226</a><div class="social-links"><a class="social-link" href="https://github.com/sibongakonkebuthelezi91" target="_blank" rel="noopener noreferrer"><i class="social-icon fa-brands fa-github" aria-hidden="true"></i>GitHub</a><a class="social-link" href="https://www.linkedin.com/in/sibongakonke-buthelezi-274b76344" target="_blank" rel="noopener noreferrer"><i class="social-icon fa-brands fa-linkedin" aria-hidden="true"></i>LinkedIn</a></div></div>
+          <div class="contact-decoration" aria-hidden="true">Let’s make<br />good things.</div>
         </div>
       </section>
     </main>
 
     <footer class="site-footer section-wrap">
-      <a class="wordmark footer-mark" href="index.html">SB<span>.</span></a>
+      <a class="wordmark footer-mark" href="#top">SB<span>.</span></a>
       <p class="social-links"><a class="social-link" href="https://github.com/sibongakonkebuthelezi91" target="_blank" rel="noopener noreferrer"><i class="social-icon fa-brands fa-github" aria-hidden="true"></i>GitHub</a><a class="social-link" href="https://www.linkedin.com/in/sibongakonke-buthelezi-274b76344" target="_blank" rel="noopener noreferrer"><i class="social-icon fa-brands fa-linkedin" aria-hidden="true"></i>LinkedIn</a></p>
       <a class="back-top" href="#main">Back to top <span aria-hidden="true">↑</span></a>
       <p class="copyright">© <span id="year"></span> Sibongakonke Buthelezi · <a href="mailto:sibongakonkebuthelezi91@gmail.com">sibongakonkebuthelezi91@gmail.com</a></p>

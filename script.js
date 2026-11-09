@@ -17,3 +17,22 @@ siteNav.addEventListener("click", (event) => {
 });
 
 document.querySelector("#year").textContent = new Date().getFullYear();
+
+const filterButtons = document.querySelectorAll(".filter-btn");
+const workCards = document.querySelectorAll(".work-card");
+
+filterButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const filter = button.dataset.filter;
+
+    filterButtons.forEach((btn) => {
+      btn.classList.toggle("is-active", btn === button);
+      btn.setAttribute("aria-pressed", String(btn === button));
+    });
+
+    workCards.forEach((card) => {
+      const matches = filter === "all" || card.dataset.cat === filter;
+      card.hidden = !matches;
+    });
+  });
+});
